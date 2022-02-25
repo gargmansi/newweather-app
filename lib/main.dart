@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newweather/newpage.dart';
+import 'package:newweather/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Newpage(),
+      home: Splash(),
       theme:
           ThemeData(colorScheme: ColorScheme.dark(), fontFamily: "Quicksand"),
     );
